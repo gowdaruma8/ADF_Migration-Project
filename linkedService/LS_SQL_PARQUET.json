@@ -1,0 +1,13 @@
+{
+	"name": "LS_SQL_PARQUET",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"description": "Linked Service Parquet",
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://adlsuma312026.dfs.core.windows.net/",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQEVGQzdDNkE5LUQ3MEUtNERBNC1COUU2LTcxRTYzMjA3MzI2RV8xMzY4YjJiYy0zMDFjLTRjNzEtYjBhNi1hZGU4ZjgwNjE4MzIiDQp9"
+		}
+	}
+}

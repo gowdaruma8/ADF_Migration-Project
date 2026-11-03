@@ -1,0 +1,22 @@
+{
+	"name": "LS_PARENT_SQLSERVER_DW",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"description": "Self hosted IR for Onprem server parent",
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"server": "LS_PARENT_SQLSERVER_DW",
+			"database": "RetailDW_Dev",
+			"encrypt": "mandatory",
+			"trustServerCertificate": true,
+			"authenticationType": "SQL",
+			"userName": "sqlserver35",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIwNzk0NTliZi0wN2M5LTQzY2ItYTkyOS04ZjNiZjA5Zjk4M2IiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "integrationRuntime2",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

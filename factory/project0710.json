@@ -1,0 +1,15 @@
+{
+	"name": "project0710",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "7f604fde-8130-47b9-8634-bd0b5b6159bd",
+		"tenantId": "34f073a0-cfba-4216-b648-82483a56fffb"
+	}
+}
